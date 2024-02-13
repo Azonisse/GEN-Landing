@@ -13,10 +13,248 @@
       crossorigin="anonymous"
     />
 
-    <title>Hello, world!</title>
+    <!--Font awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-..."
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!--Style sheet-->
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Inicio | GEN+</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <!--Navigation bar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container-xl">
+        <a class="navbar-brand" href="#">Logo</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav fw-bold">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#home">NOSOTROS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">SERVICIOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">CONTÁCTANOS</a>
+            </li>
+            <li class="nav-item d-flex">
+              <a class="nav-link" href="#">ES</a>
+              <span class="mt-1">|</span>
+              <a class="nav-link" href="#">EN</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section id="home" class="container home-container">
+      <div class="home-text text-center">
+        <h1 class="py-4">
+          ESPECIALISTAS EN DISEÑO COMPUTACIONAL Y CONSTRUCCIÓN VIRTUAL DE
+          PUENTES
+        </h1>
+        <h4>
+          Fusionamos pasión y tecnología para innovar en ingeniería estructural
+          con algoritmos de inteligencia artificial, ejecutamos proyectos con
+          agilidad y precisión, redefiniendo estándares globales.
+        </h4>
+      </div>
+    </section>
+    <section id="services" class="services-container bg-light">
+      <div class="container">
+        <h1 class="text-center pb-5">NUESTROS SERVICIOS</h1>
+        <div class="d-flex">
+          <div class="col-4">
+            <p>
+              <a
+                class="btn btn-primary"
+                data-bs-toggle="collapse"
+                href="#collapseExample"
+                role="button"
+                aria-expanded="false"
+                aria-controls="collapseExample"
+              >
+                Diseño Computacional BIM+ <br />
+                <span><i class="fa-solid fa-chevron-down"></i></span>
+              </a>
+            </p>
+            <div class="collapse" id="collapseExample">
+              <div class="card card-body">
+                Some placeholder content for the collapse component. This panel
+                is hidden by default but revealed when the user activates the
+                relevant trigger.
+              </div>
+            </div>
+
+            <img src="..." class="img-fluid" alt="..." />
+          </div>
+          <div class="col-4">
+            <p>
+              <a
+                class="btn btn-primary"
+                data-bs-toggle="collapse"
+                href="#collapseExample1"
+                role="button"
+                aria-expanded="false"
+                aria-controls="collapseExample"
+              >
+                Optimización Estructural <br />
+                <span><i class="fa-solid fa-chevron-down"></i></span>
+              </a>
+            </p>
+            <div class="collapse" id="collapseExample1">
+              <div class="card card-body">
+                Some placeholder content for the collapse component. This panel
+                is hidden by default but revealed when the user activates the
+                relevant trigger.
+              </div>
+            </div>
+            <img src="..." class="img-fluid" alt="..." />
+          </div>
+          <div class="col-4">
+            <p>
+              <a
+                class="btn btn-primary"
+                data-bs-toggle="collapse"
+                href="#collapseExample2"
+                role="button"
+                aria-expanded="false"
+                aria-controls="collapseExample"
+              >
+                Capacitación In-House <br />
+                <span><i class="fa-solid fa-chevron-down"></i></span>
+              </a>
+            </p>
+            <div class="collapse" id="collapseExample2">
+              <div class="card card-body">
+                Some placeholder content for the collapse component. This panel
+                is hidden by default but revealed when the user activates the
+                relevant trigger.
+              </div>
+            </div>
+            <img src="..." class="img-fluid" alt="..." />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="information" class="information-container">
+      <div class="container d-flex">
+        <div class="col-4"></div>
+        <div class="col-4 pe-1">
+          <div class="row mb-5">
+            <h6>VISIÓN</h6>
+            <p>
+              <i class="fa-solid fa-eye"></i> Lideramos la transformación
+              digital en ingeniería estructural, fusionando diseño computacional
+              avanzado con creatividad humana para ofrecer soluciones óptimas y
+              marcar nuevos límites en el campo.
+            </p>
+          </div>
+          <div class="row">
+            <h6>MISIÓN</h6>
+            <p>
+              <i class="fa-solid fa-pencil"></i> Fusionamos creatividad y
+              tecnología para soluciones óptimas en ingeniería estructural,
+              utilizando inteligencia artificial para proyectos ágiles e
+              innovadores, redefiniendo estándares globales.
+            </p>
+          </div>
+        </div>
+        <div class="col-4"></div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-container bg-light">
+      <div class="container d-flex">
+        <div class="col-6 pe-5">
+          <h2>GENERATIVE & OPTIMAL SOLUTIONS</h2>
+          <p>
+            Colaboramos con personas ambiciosas con mentes creativas; Hablemos
+            de tu proyecto y construyamos algo grande juntos.
+          </p>
+          <p>Contáctanos hello@genplus.com</p>
+        </div>
+        <div class="col-6 ps-5">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label"
+                >Nombres y Apellidos:</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email:</label>
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label"
+                >Mensaje:</label
+              >
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section id="footer" class="footer-container">
+      <div class="container-xl d-flex">
+        <div class="col-3 text-start pt-3 d-flex">
+          <p class="me-4">Siguenos:</p>
+          <div class="col-4 d-flex justify-content-between">
+            <div><i class="fa-brands fa-linkedin-in"></i></div>
+            <div><i class="fa-brands fa-facebook-f"></i></div>
+            <div><i class="fa-brands fa-instagram"></i></div>
+          </div>
+        </div>
+        <div class="col-6 text-center pt-3">
+          <p>
+            <i class="fa-solid fa-globe"></i> Somos peruanos, Ubicados
+            digitalmente en todas partes
+          </p>
+        </div>
+        <div class="col-3 text-end pt-3">
+          <p>Idioma: ES | EN</p>
+        </div>
+      </div>
+    </section>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
